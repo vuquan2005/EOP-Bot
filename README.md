@@ -1,7 +1,7 @@
-# Tools-EOP
+# EOP Bot
 
 ## Giới thiệu
-**Tools-EOP** là một tiện ích mở rộng (extension) cho trình duyệt Google Chrome hoặc các trình duyệt khác, giúp bạn có thể tự động hoàn thành các bài tập trên EOP.
+**EOP Bot** là một tiện ích mở rộng (extension) cho trình duyệt Google Chrome hoặc các trình duyệt khác, giúp bạn có thể tự động hoàn thành các bài tập trên EOP.
 
 Một số tính năng chính của extension:
 - Mọi thao tác đều trên giao diện người dùng, không hề can thiệp đến mạng và máy chủ EOP.
@@ -12,11 +12,11 @@ Một số tính năng chính của extension:
 
 ## Cách cài đặt
 
-Để cài đặt **Tools-EOP** extension trên trình duyệt Google Chrome, hãy làm theo các bước dưới đây:
+Để cài đặt **EOP Bot** extension trên trình duyệt Google Chrome, hãy làm theo các bước dưới đây:
 
 ### 1. Tải về extension
-- Truy cập vào trang GitHub của dự án [Tools-EOP GitHub](https://github.com/vuquan2005/Tools-EOP) và tải về mã nguồn của tiện ích.
-- Bạn có thể tải mã nguồn dưới dạng ZIP tại đây: [ZIP](https://github.com/vuquan2005/Tools-EOP/archive/refs/heads/main.zip)
+- Truy cập vào trang GitHub của dự án [EOP Bot GitHub](https://github.com/vuquan2005/EOP-Bot) và tải về mã nguồn của tiện ích.
+- Bạn có thể tải mã nguồn dưới dạng ZIP tại đây: [ZIP](https://github.com/vuquan2005/EOP-Bot/archive/refs/heads/main.zip)
 - Sau khi đã tải về bạn giải nén tại một nơi bất kỳ.
 
 ### 2. Cài đặt extension vào Chrome
@@ -28,7 +28,7 @@ Một số tính năng chính của extension:
 6. Extension sẽ tự động được cài đặt và hiển thị trên thanh công cụ của trình duyệt.
 
 ## Tuyên bố miễn trừ trách nhiệm
-Dự án **Tools-EOP** là một tiện ích mã nguồn mở và được phát triển để phục vụ mục đích cá nhân (cụ thể là học cách tạo một extension cho trình duyệt). Tuy nhiên, tôi không chịu trách nhiệm về bất kỳ thiệt hại hoặc sự cố nào phát sinh từ việc sử dụng công cụ này, ví dụ như:
+Dự án **EOP Bot** là một tiện ích mã nguồn mở và được phát triển để phục vụ mục đích cá nhân (cụ thể là học cách tạo một extension cho trình duyệt). Tuy nhiên, tôi không chịu trách nhiệm về bất kỳ thiệt hại hoặc sự cố nào phát sinh từ việc sử dụng công cụ này, ví dụ như:
 
 - Bị phát hiện bởi hệ thống EOP, nhà trường, giảng viên,...
 - Bị 0đ.

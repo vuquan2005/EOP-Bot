@@ -3,7 +3,8 @@
   "name": "EOP",
   "version": "2.0",
   "description": "A simple Chrome extension named EOP that works on every webpage.",
-  "permissions": ["scripting"],
+  "permissions": [
+    "scripting"],
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
@@ -25,7 +26,8 @@
   "content_scripts": [
     {
       "matches": ["https://eop.edu.vn/study/task/*"],
-      "js": ["scripts/eop.js", "scripts/lib/tesseract.min.js"]
+      "js": ["scripts/eop.js", 
+        "scripts/lib/tesseract.min.js"]
     }
   ]
 }
