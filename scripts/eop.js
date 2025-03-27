@@ -1,17 +1,18 @@
 const taskTitleElement = document.querySelector("span#dtasktitle");
 let taskTitle = taskTitleElement.textContent;
+
 setInterval(() => {
     if (taskTitleElement.textContent !== taskTitle) {
         taskTitle = taskTitleElement.textContent;
-        setTimeout(run, 500);
+        setTimeout(run, 1000);
     }
-}, 100);
+}, 500);
 
 function delay(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-setTimeout(run, 500);
+setTimeout(run, 1000);
 
 async function run() {
     console.log("New Task");
@@ -94,7 +95,7 @@ async function run() {
     //random 2-30s
 
     let random = Math.floor(Math.random() * 30000) + 2000;
-    clockBtn.textContent = `Đã điền xong, chờ ${random / 1000}s`;
+    clockBtn.textContent = `Đã điền xong, chờ ${random.toFixed(1) / 1000}s`;
     await delay(random);
     // Click the Done buttons
     const btnDone2 = document.querySelector(
