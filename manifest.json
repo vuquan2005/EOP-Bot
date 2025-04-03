@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "EOP",
   "version": "2.0",
-  "description": "A simple Chrome extension named EOP that works on every webpage.",
+  "description": "A simple Chrome extension works on EOP web",
   "permissions": [
     "scripting"],
   "action": {
